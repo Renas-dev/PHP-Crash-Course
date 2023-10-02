@@ -25,19 +25,19 @@
     $grade = strtoupper($_GET["grade"]);
     switch ($grade){
         case "A":
-            echo "You scored did great! u got a {$grade} for ur test!";
+            echo "U got a {$grade} for ur test! You scored  great!";
             break;
         case "B":
-            echo "You scored did good! u got a {$grade} for ur test!";
+            echo "U got a {$grade} for ur test! You scored good!";
             break;
         case "C":
-            echo "You scored did okay! u got a {$grade} for ur test!";
+            echo "U got a {$grade} for ur test! You scored okay!";
             break;
         case "D":
-            echo "You scored did poorly! u got a {$grade} for ur test!";
+            echo "U got a {$grade} for ur test! You scored poorly!";
             break;
         case "F":
-            echo "You scored did horrible! u got a {$grade} for ur test!";
+            echo "U got a {$grade} for ur test! You scored horrible!";
             break;
         default:
             echo "Hey your {$grade} did not match any grades in our system.";
